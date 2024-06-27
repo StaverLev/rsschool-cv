@@ -1,4 +1,5 @@
 # Staver Lev
+![avatar](images/profile-img.jpeg)
 
 ## Junior Front-End Developer
 
