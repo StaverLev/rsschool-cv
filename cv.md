@@ -22,3 +22,17 @@ Information Systems and Technologies
 * CSS - 40%
 * GitHub - 45%
 * Figma - 70%
+
+## Code
+```javascript
+let n = 5;
+    function factorial(n) { 
+        if (n === 0) { 
+            return 1; 
+        } 
+        else { 
+            return n * factorial( n - 1 ); 
+        } 
+    } 
+console.log(factorial(n));
+```
