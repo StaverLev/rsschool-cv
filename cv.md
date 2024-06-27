@@ -16,3 +16,9 @@ My goal is to become an experienced developer and enjoy what I do. My priorities
 2018-2022
 ### Ural Federal University
 Information Systems and Technologies
+
+## Skills
+* HTML - 60%
+* CSS - 40%
+* GitHub - 45%
+* Figma - 70%
