@@ -174,3 +174,23 @@ body {
 .create__underline:hover:hover {
   text-decoration: underline var(--color-light-blue);
 }
+
+.education {
+  color: var(--color-light);
+  margin-bottom: 25px;
+  font-size: 22px;
+  text-transform: capitalize;
+}
+
+.graduation__year {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.university {
+  font-weight: 700;
+}
+
+.faculty span {
+  text-transform: lowercase;
+}
