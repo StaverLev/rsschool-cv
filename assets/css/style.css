@@ -64,6 +64,9 @@ body {
 }
 
 .cv__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   min-height: 100vh;
   max-width: 1024px;
   margin: 60px auto;
@@ -266,5 +269,37 @@ code {
 
 .language__item .percent__wrapper {
   background-color: #c9c9c9;
+}
+
+.footer {
+  background-color: var(--color-dark-blue);
+}
+
+.footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.rss__logo {
+  width: 150px;
+  background-color: var(--color-light);
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.rss__logo.glowing__effect {
+  transition: all 1s ease;
+}
+
+.rss__logo.glowing__effect:hover {
+  box-shadow: 3px 3px 40px rgba(240, 240, 240, 0.9),
+    -3px -3px 40px rgba(240, 240, 240, 0.9);
+}
+
+.year {
+  color: var(--color-light);
+  font-weight: 700;
 }
 
