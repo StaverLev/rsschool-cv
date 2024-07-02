@@ -255,3 +255,16 @@ code {
 .project__link.change__color:hover {
   color: red;
 }
+
+.language__item {
+  margin-bottom: 20px;
+}
+
+.language__item .language__name {
+  text-transform: capitalize;
+}
+
+.language__item .percent__wrapper {
+  background-color: #c9c9c9;
+}
+
