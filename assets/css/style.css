@@ -235,3 +235,23 @@ code {
   background-color: var(--color-light-grey);
   border-radius: 10px;
 }
+
+.project__item .project__name {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.project__item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.project__link {
+  text-decoration: underline;
+  color: var(--color-light-blue);
+}
+
+.project__link.change__color:hover {
+  color: red;
+}
