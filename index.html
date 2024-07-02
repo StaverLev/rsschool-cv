@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+  </head>
+  <body>
+    <div class="cv__container">
+      <header class="header">
+        <div class="container">
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item"><a href="#about-id" class="menu__link change__color">About</a></li>
+              <li class="menu__item"><a href="#code-id" class="menu__link change__color">Code</a></li>
+              <li class="menu__item"><a href="#contacts-id" class="menu__link change__color">Contacts</a></li>
+              <li class="menu__item"><a href="#education-id" class="menu__link change__color">Education</a></li>
+              <li class="menu__item"><a href="#skills-id" class="menu__link change__color">Skills</a></li>
+              <li class="menu__item"><a href="#projects-id" class="menu__link change__color">Projects</a></li>
+              <li class="menu__item"><a href="#language-id" class="menu__link change__color">Language</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="left__side">
+          <div class="container">
+            <section class="profile">
+              <div class="img__wrapper">
+                <img src="./assets/images/profile-img.jpeg" alt="avatar" width="215" height="215">
+              </div>
+              <h1 class="profile__name">Staver <span>Lev</span></h1>
+              <h2 class="profile__profession ">Junior Front-end Developer</h2>
+            </section>
+
+            <section id="contacts-id" class="contacts">
+              <h2 class="visually__hidden">Contacts</h2>
+              <ul class="contacts__list">
+                <li class="contacts__item">
+                  <img src="./assets/images/mail.svg" alt="mail" class="contacts__img" >
+                  <a
+                    href="mailto:levstaver@yandex.ru"
+                    class="contacts__link mail create__underline"
+                    >levstaver@yandex.ru</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <img
+                    src="./assets/images/discord.svg"
+                    alt="discord"
+                    class="contacts__img"
+                  >
+                  <a
+                    href="https://discord.com/users/1243174370667401347"
+                    class="contacts__link create__underline"
+                    target="_blank"
+                    >Discord</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <img
+                    src="./assets/images/github.svg"
+                    alt="github"
+                    class="contacts__img"
+                  >
+                  <a
+                    href="https://github.com/StaverLev"
+                    class="contacts__link create__underline"
+                    target="_blank"
+                    >GitHub</a
+                  >
+                </li>
+                <li class="contacts__item">
+                  <img
+                    src="./assets/images/marker.svg"
+                    alt="location"
+                    class="contacts__img"
+                  >
+                  <a href="https://en.wikipedia.org/wiki/Yekaterinburg" class="contacts__link create__underline" target="_blank"
+                    >Yekaterinburg</a
+                  >
+                </li>
+              </ul>
+            </section>
+
+            <section id="education-id" class="education">
+              <h2 class="title">Education</h2>
+              <p class="graduation__year">2018-2022</p>
+              <p class="university">Ural Federal University</p>
+              <p class="faculty">
+                Information Systems <span>and</span> Technologies
+              </p>
+            </section>
+
+            <section id="skills-id" class="skills">
+              <h2 class="title">Skills</h2>
+              <ul class="skills__list">
+                <li class="skills__item">
+                  <p class="text" style="text-transform: uppercase">HTML</p>
+                  <div class="percent__wrapper">
+                    <div class="percent" style="width: 60%"></div>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="text" style="text-transform: uppercase">CSS</p>
+                  <div class="percent__wrapper">
+                    <div class="percent" style="width: 40%"></div>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="text" style="text-transform: capitalize">Git</p>
+                  <div class="percent__wrapper">
+                    <div class="percent" style="width: 45%"></div>
+                  </div>
+                </li>
+                <li class="skills__item">
+                  <p class="text" style="text-transform: capitalize">Figma</p>
+                  <div class="percent__wrapper">
+                    <div class="percent" style="width: 70%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+        <div class="right__side">
+          <div class="container">
+            <section id="about-id" class="about">
+              <h2 class="title">About</h2>
+              <p class="text">
+                My goal is to become an experienced developer and enjoy what I do.
+                My priorities are developing programming skills, studying new
+                technologies and building a career in IT. I am passionate about
+                what I do and constantly strive to learn and discover new things.
+              </p>
+            </section>
+
+            <section id="code-id" class="code">
+              <h2 class="title">Code</h2>
+              <pre><code>
+        let n = 5;
+          function factorial(n) { 
+              if (n === 0) { 
+                  return 1; 
+              } 
+              else { 
+                  return n * factorin - 1 ); 
+              } 
+          } 
+          console.log(factorial(n));
+              </code></pre>
+            </section>
+
+            <section id="projects-id" class="projects">
+              <h2 class="title">Projects</h2>
+              <ul class="projects__list">
+                <li class="project__item">
+                  <p class="project__name">CV</p>
+                  <a
+                    href="https://staverlev.github.io/rsschool-cv"
+                    class="project__link change__color"
+                    target="_blank"
+                    >https://staverlev.github.io/rsschool-cv</a
+                  >
+                </li>
+              </ul>
+            </section>
+
+            <section id="language-id" class="language">
+              <h2 class="title">Language</h2>
+              <ul class="language__list">
+                <li class="language__item">
+                  <p class="language__name">English</p>
+                  <div class="percent__wrapper">
+                    <div class="percent" style="width: 30%"></div>
+                  </div>
+                </li>
+                <li class="language__item">
+                  <p class="language__name">Russian (Native)</p>
+                  <div class="percent__wrapper">
+                    <div class="percent" style="width: 90%"></div>
+                  </div>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="container">
+          <a
+            href="https://rs.school/courses/javascript-preschool-ru"
+            class="rss__logo glowing__effect"
+            target="_blank"
+            ><img src="./assets/images/rss.svg" alt="logo" class="rss__img" width="144"
+          ></a>
+          <a
+            href="https://github.com/StaverLev"
+            class="github__logo glowing__effect"
+            target="_blank"
+            ><img src="./assets/images/github-logo.svg" alt="github" class="github__img"
+          ></a>
+          <p class="year">2024</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
