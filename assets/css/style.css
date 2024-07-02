@@ -228,3 +228,10 @@ body {
 .right__side section {
   margin-bottom: 30px;
 }
+
+code {
+  display: block;
+  white-space: pre-wrap;
+  background-color: var(--color-light-grey);
+  border-radius: 10px;
+}
