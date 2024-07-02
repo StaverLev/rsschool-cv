@@ -303,3 +303,76 @@ code {
   font-weight: 700;
 }
 
+@media (max-width: 1024px) {
+  .cv__container {
+    margin: 0;
+  }
+}
+
+@media (max-width: 885px) {
+  code {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 850px) {
+  code {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: auto;
+  }
+
+  .menu__list {
+    flex-wrap: wrap;
+  }
+
+  .profile {
+    text-align: center;
+  }
+
+  .contacts {
+    display: flex;
+    justify-content: center;
+  }
+
+  code {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  code {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 500px) {
+  code {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 430px) {
+
+  html {
+    min-width: 430px;
+  }
+  .menu__list {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  code {
+    font-size: 12px;
+  }
+}
+
