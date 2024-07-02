@@ -1,5 +1,5 @@
 # Staver Lev
-![avatar](images/profile-img.jpeg)
+![avatar](./assets/images/profile-img.jpeg)
 
 ## Junior Front-End Developer
 
