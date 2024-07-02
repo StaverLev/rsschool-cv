@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Regular.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
@@ -9,7 +9,7 @@
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-Bold.woff2") format("woff2");
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
@@ -17,7 +17,7 @@
 @font-face {
   font-family: "Open Sans";
   src: url("../fonts/OpenSans-ExtraBold.woff2") format("woff2");
-  font-weight: bold;
+  font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
@@ -29,3 +29,62 @@
   font-style: italic;
   font-display: swap;
 }
+
+:root {
+  --color-light: #ffffff;
+  --color-light-blue: #56CCF2;
+  --color-blue: #174180;
+  --color-dark-blue:#11294d;
+  --color-grey: #828282;
+  --color-light-grey: #eeeeee;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+body {
+  background-color: lightcyan;
+  min-height: 100vh;
+}
+
+.change__color {
+  transition: all ease;
+}
+
+.change__color:hover {
+  color: var(--color-light-blue);
+}
+
+.cv__container {
+  width: 100%;
+  max-width: 1024px;
+  margin: 60px auto;
+  box-shadow: -30px 30px 50px rgba(0, 0, 0, 0.5);
+}
+
+.header {
+  background-color: var(--color-dark-blue);
+}
+
+.container {
+  padding: 30px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  color: var(--color-light);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
