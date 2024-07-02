@@ -82,7 +82,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 20px;
+  column-gap: 20px;
   color: var(--color-light);
   font-weight: 700;
   text-transform: capitalize;
@@ -140,4 +140,37 @@ body {
 .profile__profession {
   font-size: 26px;
   font-weight: 400;
+}
+
+.contacts {
+  color: var(--color-light-blue);
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+
+.visually__hidden {
+  display: none;
+}
+
+.contacts__item {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-bottom: 9px;
+}
+
+.contacts__item a {
+  text-transform: capitalize;
+}
+
+.contacts__item a.mail {
+  text-transform: lowercase;
+}
+
+.create__underline:hover {
+  transition: all ease;
+}
+
+.create__underline:hover:hover {
+  text-decoration: underline var(--color-light-blue);
 }
