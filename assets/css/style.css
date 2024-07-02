@@ -194,3 +194,21 @@ body {
 .faculty span {
   text-transform: lowercase;
 }
+
+.skills {
+  color: var(--color-light);
+  font-size: 22px;
+  margin-bottom: 25px;
+}
+
+.percent__wrapper {
+  background-color: #03041a;
+  height: 6px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+.percent__wrapper .percent {
+  background-color: var(--color-light-blue);
+  height: 100%;
+}
