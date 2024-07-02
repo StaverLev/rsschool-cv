@@ -93,16 +93,19 @@ body {
   grid-template-columns: 1fr 2fr;
 }
 
+.title {
+  font-size: 26px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
 .left__side {
   background-color: var(--color-blue);
 }
 
 .left__side .title {
   color: var(--color-light-blue);
-  font-size: 26px;
-  font-weight: 700;
-  text-transform: capitalize;
-  margin-bottom: 6px;
 }
 
 .profile {
@@ -211,4 +214,17 @@ body {
 .percent__wrapper .percent {
   background-color: var(--color-light-blue);
   height: 100%;
+}
+
+.right__side {
+  background-color: var(--color-light);
+  color: var(--color-grey);
+}
+
+.right__side .title {
+  color: var(--color-blue);
+}
+
+.right__side section {
+  margin-bottom: 30px;
 }
